@@ -1,0 +1,121 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*body, html {
+  height: 100%;
+}
+*/
+body {
+	background-image: url(https://www.insidescience.org/sites/default/files/2020-06/physics-chalkboard_cropped.jpg);
+}
+.div1 {
+	text-align: center;
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+}
+.div2 {
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 300px;
+    margin: 20px;
+    padding: 5px;
+    float: left;
+    transition: 0.3s;
+}
+.div2:hover {
+    transform: scale(1.05);
+  }
+section {
+	text-align: center;
+	color: white;
+	font-size: 150%;
+	font-family: 'Bebas Neue', cursive;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.div3 {
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 300px;
+    margin: 20px;
+    padding: 5px;
+    float: left;
+    transition: 0.3s;
+}
+.div3:hover {
+	transform: scale(1.05);
+}
+.div4 {
+	color: white;
+	border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 300px;
+    margin: 20px;
+    padding: 5px;
+    float: left;
+    transition: 0.3s;
+}
+.div4:hover {
+	transform: scale(1.05);
+}
+@media (min-width: 992px) {
+	.div2 {
+		width: 32%;
+		margin: 5px;
+	}
+	.div3 {
+		width: 32%;
+		margin: 5px;
+	}
+	.div4 {
+		width: 32%;
+		margin: 5px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.div2{
+		width: 48%;
+		margin: 5px;
+	}
+	.div3{
+		width: 48%;
+		margin: 5px;
+	}
+	.div4{
+		width: 300px;
+		clear: left;
+		margin: 5px;
+	}
+}
+@media (max-width: 767px) {
+	.div1 {
+		margin-left: 50px;
+	}
+	.div2{
+		clear: left;
+		width: 300px;
+		/*margin: 5px;*/
+		margin-left: 50px;
+	}
+	.div3{
+		clear: left;
+		width: 300px;
+		/*margin: 5px;*/
+		margin-left: 50px;
+	}
+	.div4{
+		clear: left;
+		width: 300px;
+		/*margin: 5px;*/
+		margin-left: 50px;
+	}
+}
