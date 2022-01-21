@@ -29,12 +29,7 @@ p{
 	font-family: 'Dongle', sans-serif;
 	font-size: 130%;
 }
-.dropdown:hover .dropdown-menu{
-        display: block;
-    }
-    .dropdown-menu{
-        margin-top: 0;
-    }
+
 @media (min-width: 992px) {
 	.div1 {
 		width: 600px;
@@ -49,4 +44,10 @@ p{
 	p {
 		font-size: 200%;
 	}
+	.dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
 }
