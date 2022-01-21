@@ -42,6 +42,12 @@ section {
   font-family: 'Prompt', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
+.dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
 @media (min-width: 992px) {
   .div1 {
     width: 19%;
