@@ -6,8 +6,8 @@ body, html {
   height: 100%;
 }
 body {
-	background-image: url(https://www.wallpapertip.com/wmimgs/167-1677724_technology-website-background-images-hd.jpg);
-	background-repeat: repeat;
+	background-image: url(https://cdn.talkesport.com/wp-content/uploads/technology-esports-696x392.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 .div1 {
@@ -17,6 +17,12 @@ body {
     padding: 5px;
     margin: 20px;
     float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
 section {
 	text-align: center;
