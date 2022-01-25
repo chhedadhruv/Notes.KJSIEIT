@@ -1,14 +1,15 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 /*body, html {
   height: 100%;
 }*/
 body {
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Books_HD_%288314929977%29.jpg/800px-Books_HD_%288314929977%29.jpg);
-	/*background-repeat: no-repeat;*/
-	background-size: auto;
+	background-repeat: repeat;
+	background-size: cover;
 }
 .div1,.div2,.div3,.div4,.div5 {
 	color: white;
