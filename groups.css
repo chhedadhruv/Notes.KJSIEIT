@@ -7,9 +7,11 @@ body, html {
   height: 100%;
 }
 body {
-	background-image: url(groups.jpg);
-	/*background-repeat: no-repeat;*/
-	background-size: cover;
+	background-image: url(https://www.teahub.io/photos/full/117-1175838_social-media-wallpaper-background-wallpaper-social-media.jpg);
+	/*background-position: center center;*/
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: auto;
 }
 .div1 {
 	color: white;
@@ -51,7 +53,7 @@ body {
     transition: 0.3s;
     float: left;
 }
-.div1:hover {
+/*.div1:hover {
 	transform: scale(1.02);
 }
 .div2:hover {
@@ -62,9 +64,10 @@ body {
 }
 .div4:hover {
 	transform: scale(1.02);
-}
+}*/
 section {
 	text-align: center;
+  color: black;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Dongle', sans-serif;
   font-family: 'Prompt', sans-serif;
@@ -94,6 +97,11 @@ section {
     .dropdown-menu{
         margin-top: 0;
     }
+    /*.footer {
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+    }*/
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .div1{

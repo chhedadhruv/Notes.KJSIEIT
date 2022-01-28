@@ -8,7 +8,8 @@
 }
 */
 body {
-	background-image: url(https://www.insidescience.org/sites/default/files/2020-06/physics-chalkboard_cropped.jpg);
+	background-image: url(https://wallpaperaccess.com/full/829012.jpg);
+	background-repeat: no-repeat;
 }
 .div1 {
 	text-align: center;
@@ -20,6 +21,7 @@ body {
     margin: 20px;
 }
 .div2 {
+	text-decoration: none;
 	color: white;
 	border-radius: 20px;
     backdrop-filter: blur(10px);
@@ -29,17 +31,17 @@ body {
     float: left;
     transition: 0.3s;
 }
-.div2:hover {
+/*.div2:hover {
     transform: scale(1.05);
-  }
+}*/
 section {
 	text-align: center;
 	color: white;
 	font-size: 150%;
 	font-family: 'Bebas Neue', cursive;
-  font-family: 'Dongle', sans-serif;
-  font-family: 'Prompt', sans-serif;
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .div3 {
 	color: white;
@@ -51,9 +53,9 @@ section {
     float: left;
     transition: 0.3s;
 }
-.div3:hover {
+/*.div3:hover {
 	transform: scale(1.05);
-}
+}*/
 .div4 {
 	color: white;
 	border-radius: 20px;
@@ -64,8 +66,8 @@ section {
     float: left;
     transition: 0.3s;
 }
-.div4:hover {
-	transform: scale(1.05);
+/*.div4:hover {
+	transform: scale(1.05);*/
 }
 @media (min-width: 992px) {
 	.div2 {
