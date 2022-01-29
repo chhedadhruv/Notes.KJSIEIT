@@ -7,7 +7,7 @@
   height: 100%;*/
 }
 .footer {
-    /*bottom: 0px;*/
+    /* bottom: 0px; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
