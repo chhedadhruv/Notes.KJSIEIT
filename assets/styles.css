@@ -23,7 +23,9 @@ body {
     width: 300px;
     padding: 5px;
     margin: 20px;
-    float: left;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%; 
 }
 section {
 	text-align: center;

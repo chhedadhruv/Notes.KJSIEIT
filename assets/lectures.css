@@ -3,13 +3,17 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-/*body, html {
+body, html {
   height: 100%;
 }
-*/
+
 body {
-	background-image: url(https://wallpaperaccess.com/full/829012.jpg);
-	background-repeat: no-repeat;
+	/* background-image: url(https://wallpaperaccess.com/full/829012.jpg); */
+	/* background-image: url(https://images.unsplash.com/photo-1544531585-f14f463149ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+	background-color: #7f53ac;
+	background: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+	/* background-repeat: no-repeat;
+	background-size: cover; */
 }
 .div1 {
 	text-align: center;
@@ -68,9 +72,13 @@ section {
     float: left;
     transition: 0.3s;
 }
-/*.div4:hover {
-	transform: scale(1.05);*/
+/* .div4:hover {
+	transform: scale(1.05);
+} */
+.link-light:hover {
+	color: #000 !important
 }
+
 @media (min-width: 992px) {
 	.div2 {
 		width: 32%;
