@@ -15,31 +15,58 @@ body {
 	/* background-repeat: no-repeat;
 	background-size: cover; */
 }
-.div1 {
+/* .div1 {
 	text-align: center;
 	color: white;
 	border-radius: 20px;
     backdrop-filter: blur(10px);
     width: 300px;
     padding: 5px;
-    margin: 20px;
+    margin: 25px;
+} */
+.header {
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
 }
-.div2 {
+.Subjects {
+	display: flex;
+	flex-wrap: center;
+	justify-content: center;
+	align-items: center;
+}
+.content {
 	text-decoration: none;
 	color: white;
-	border-radius: 20px;
     backdrop-filter: blur(10px);
     width: 300px;
     height: 300px;
     margin: 20px;
     padding: 5px;
-    float: left;
+    /* float: left; */
     overflow: auto;
     transition: 0.3s;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid white;
 }
-/*.div2:hover {
-    transform: scale(1.05);
-}*/
+.filled {
+    position: relative;
+	margin: 5px;
+    left: 15%;
+    width: 70%;
+    height: 2px;
+    background: rgba(255, 255, 255, 1);
+    transition: 0.25s ease-out;
+}
+.content:hover .filled {
+	position: relative;
+    left: 5%;
+    width: 90%;
+    background: rgba(255, 255, 255, 1);
+    transition: 0.25s ease-out;
+}
 section {
 	text-align: center;
 	color: white;
@@ -49,37 +76,30 @@ section {
     font-family: 'Prompt', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.div3 {
-	color: white;
-	border-radius: 20px;
-    backdrop-filter: blur(10px);
-    width: 300px;
-    margin: 20px;
-    padding: 5px;
-    float: left;
-    transition: 0.3s;
-}
-/*.div3:hover {
-	transform: scale(1.05);
-}*/
-.div4 {
-	color: white;
-	border-radius: 20px;
-    backdrop-filter: blur(10px);
-    width: 300px;
-    margin: 20px;
-    padding: 5px;
-    float: left;
-    transition: 0.3s;
-}
-/* .div4:hover {
-	transform: scale(1.05);
-} */
 .link-light:hover {
 	color: #000 !important
 }
+::-webkit-scrollbar {
+    width: 6px;
+    }
 
-@media (min-width: 992px) {
+    /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #f2f2f2; 
+    border-radius: 10px;
+    }
+ 
+    /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E0FFFF; 
+    border-radius: 10px;
+    }
+
+    /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(183, 245, 240); 
+    }
+/* @media (min-width: 992px) {
 	.div2 {
 		width: 32%;
 		margin: 5px;
@@ -136,4 +156,4 @@ section {
 		/*margin: 5px;*/
 		margin-left: 50px;
 	}
-}
+} */
